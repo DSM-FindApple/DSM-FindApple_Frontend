@@ -1,9 +1,12 @@
 import React from 'react';
 import './App.css';
+import { Location } from './components';
 
 function App() {
   return (
-    <div>dsm-findapple</div>
+    <>
+      <Location />
+    </>
   );
 }
 
