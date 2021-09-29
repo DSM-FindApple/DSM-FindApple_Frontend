@@ -46,8 +46,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:17.0.24"],
             ["@types/react-dom", "npm:17.0.9"],
             ["@types/react-router-dom", "npm:5.3.0"],
+            ["babel-eslint", "virtual:7b59d9b360f0da82c68dd7630b4a6bce9e38c678b50fda300ffc1f20946112da7c376517dc35f7cc4110e3af9de213c137f095cd75bb59b9f1560be291d39718#npm:10.1.0"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:7b59d9b360f0da82c68dd7630b4a6bce9e38c678b50fda300ffc1f20946112da7c376517dc35f7cc4110e3af9de213c137f095cd75bb59b9f1560be291d39718#npm:17.0.2"],
+            ["react-icons", "virtual:7b59d9b360f0da82c68dd7630b4a6bce9e38c678b50fda300ffc1f20946112da7c376517dc35f7cc4110e3af9de213c137f095cd75bb59b9f1560be291d39718#npm:4.2.0"],
+            ["react-kakao-maps-sdk", "virtual:7b59d9b360f0da82c68dd7630b4a6bce9e38c678b50fda300ffc1f20946112da7c376517dc35f7cc4110e3af9de213c137f095cd75bb59b9f1560be291d39718#npm:1.0.1"],
             ["react-router-dom", "virtual:7b59d9b360f0da82c68dd7630b4a6bce9e38c678b50fda300ffc1f20946112da7c376517dc35f7cc4110e3af9de213c137f095cd75bb59b9f1560be291d39718#npm:5.3.0"],
             ["react-scripts", "virtual:7b59d9b360f0da82c68dd7630b4a6bce9e38c678b50fda300ffc1f20946112da7c376517dc35f7cc4110e3af9de213c137f095cd75bb59b9f1560be291d39718#npm:4.0.3"],
             ["typescript", "patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=d8b4e7"],
@@ -6631,6 +6634,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
+        ["virtual:7b59d9b360f0da82c68dd7630b4a6bce9e38c678b50fda300ffc1f20946112da7c376517dc35f7cc4110e3af9de213c137f095cd75bb59b9f1560be291d39718#npm:10.1.0", {
+          "packageLocation": "./.yarn/__virtual__/babel-eslint-virtual-b5a6133e4e/0/cache/babel-eslint-npm-10.1.0-6a6d2b1533-bdc1f62b6b.zip/node_modules/babel-eslint/",
+          "packageDependencies": [
+            ["babel-eslint", "virtual:7b59d9b360f0da82c68dd7630b4a6bce9e38c678b50fda300ffc1f20946112da7c376517dc35f7cc4110e3af9de213c137f095cd75bb59b9f1560be291d39718#npm:10.1.0"],
+            ["@babel/code-frame", "npm:7.14.5"],
+            ["@babel/parser", "npm:7.15.7"],
+            ["@babel/traverse", "npm:7.15.4"],
+            ["@babel/types", "npm:7.15.6"],
+            ["@types/eslint", null],
+            ["eslint", null],
+            ["eslint-visitor-keys", "npm:1.3.0"],
+            ["resolve", "patch:resolve@npm%3A1.20.0#~builtin<compat/resolve>::version=1.20.0&hash=00b1ff"]
+          ],
+          "packagePeers": [
+            "@types/eslint",
+            "eslint"
+          ],
+          "linkType": "HARD",
+        }],
         ["virtual:9586518fab1207f509769d4ed7840ec51261a9e059b9bf629197ce424c76eff8414ec3b43da8f059a0ce2d4df692744cc7a61e65ebf4e40312a861875bd7936d#npm:10.1.0", {
           "packageLocation": "./.yarn/__virtual__/babel-eslint-virtual-bd5cb1aba2/0/cache/babel-eslint-npm-10.1.0-6a6d2b1533-bdc1f62b6b.zip/node_modules/babel-eslint/",
           "packageDependencies": [
@@ -13199,6 +13221,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["kakao.maps.d.ts", [
+        ["npm:0.1.23", {
+          "packageLocation": "./.yarn/cache/kakao.maps.d.ts-npm-0.1.23-38b32961b4-ddc2f19700.zip/node_modules/kakao.maps.d.ts/",
+          "packageDependencies": [
+            ["kakao.maps.d.ts", "npm:0.1.23"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["killable", [
         ["npm:1.0.1", {
           "packageLocation": "./.yarn/cache/killable-npm-1.0.1-bf69803651-911a85c6e3.zip/node_modules/killable/",
@@ -16623,6 +16654,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["react-icons", [
+        ["npm:4.2.0", {
+          "packageLocation": "./.yarn/cache/react-icons-npm-4.2.0-8be7673a1c-2b42d9b0ac.zip/node_modules/react-icons/",
+          "packageDependencies": [
+            ["react-icons", "npm:4.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:7b59d9b360f0da82c68dd7630b4a6bce9e38c678b50fda300ffc1f20946112da7c376517dc35f7cc4110e3af9de213c137f095cd75bb59b9f1560be291d39718#npm:4.2.0", {
+          "packageLocation": "./.yarn/__virtual__/react-icons-virtual-6eb6f91b85/0/cache/react-icons-npm-4.2.0-8be7673a1c-2b42d9b0ac.zip/node_modules/react-icons/",
+          "packageDependencies": [
+            ["react-icons", "virtual:7b59d9b360f0da82c68dd7630b4a6bce9e38c678b50fda300ffc1f20946112da7c376517dc35f7cc4110e3af9de213c137f095cd75bb59b9f1560be291d39718#npm:4.2.0"],
+            ["@types/react", "npm:17.0.24"],
+            ["react", "npm:17.0.2"]
+          ],
+          "packagePeers": [
+            "@types/react",
+            "react"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["react-is", [
         ["npm:16.13.1", {
           "packageLocation": "./.yarn/cache/react-is-npm-16.13.1-a9b9382b4f-f7a19ac349.zip/node_modules/react-is/",
@@ -16635,6 +16688,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/react-is-npm-17.0.2-091bbb8db6-9d6d111d89.zip/node_modules/react-is/",
           "packageDependencies": [
             ["react-is", "npm:17.0.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["react-kakao-maps-sdk", [
+        ["npm:1.0.1", {
+          "packageLocation": "./.yarn/cache/react-kakao-maps-sdk-npm-1.0.1-f76d39e37f-102cd79bc1.zip/node_modules/react-kakao-maps-sdk/",
+          "packageDependencies": [
+            ["react-kakao-maps-sdk", "npm:1.0.1"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:7b59d9b360f0da82c68dd7630b4a6bce9e38c678b50fda300ffc1f20946112da7c376517dc35f7cc4110e3af9de213c137f095cd75bb59b9f1560be291d39718#npm:1.0.1", {
+          "packageLocation": "./.yarn/__virtual__/react-kakao-maps-sdk-virtual-11fec9dccb/0/cache/react-kakao-maps-sdk-npm-1.0.1-f76d39e37f-102cd79bc1.zip/node_modules/react-kakao-maps-sdk/",
+          "packageDependencies": [
+            ["react-kakao-maps-sdk", "virtual:7b59d9b360f0da82c68dd7630b4a6bce9e38c678b50fda300ffc1f20946112da7c376517dc35f7cc4110e3af9de213c137f095cd75bb59b9f1560be291d39718#npm:1.0.1"],
+            ["@types/react", "npm:17.0.24"],
+            ["@types/react-dom", "npm:17.0.9"],
+            ["kakao.maps.d.ts", "npm:0.1.23"],
+            ["react", "npm:17.0.2"],
+            ["react-dom", "virtual:7b59d9b360f0da82c68dd7630b4a6bce9e38c678b50fda300ffc1f20946112da7c376517dc35f7cc4110e3af9de213c137f095cd75bb59b9f1560be291d39718#npm:17.0.2"]
+          ],
+          "packagePeers": [
+            "@types/react-dom",
+            "@types/react",
+            "react-dom",
+            "react"
           ],
           "linkType": "HARD",
         }]
@@ -18817,8 +18897,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:17.0.24"],
             ["@types/react-dom", "npm:17.0.9"],
             ["@types/react-router-dom", "npm:5.3.0"],
+            ["babel-eslint", "virtual:7b59d9b360f0da82c68dd7630b4a6bce9e38c678b50fda300ffc1f20946112da7c376517dc35f7cc4110e3af9de213c137f095cd75bb59b9f1560be291d39718#npm:10.1.0"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:7b59d9b360f0da82c68dd7630b4a6bce9e38c678b50fda300ffc1f20946112da7c376517dc35f7cc4110e3af9de213c137f095cd75bb59b9f1560be291d39718#npm:17.0.2"],
+            ["react-icons", "virtual:7b59d9b360f0da82c68dd7630b4a6bce9e38c678b50fda300ffc1f20946112da7c376517dc35f7cc4110e3af9de213c137f095cd75bb59b9f1560be291d39718#npm:4.2.0"],
+            ["react-kakao-maps-sdk", "virtual:7b59d9b360f0da82c68dd7630b4a6bce9e38c678b50fda300ffc1f20946112da7c376517dc35f7cc4110e3af9de213c137f095cd75bb59b9f1560be291d39718#npm:1.0.1"],
             ["react-router-dom", "virtual:7b59d9b360f0da82c68dd7630b4a6bce9e38c678b50fda300ffc1f20946112da7c376517dc35f7cc4110e3af9de213c137f095cd75bb59b9f1560be291d39718#npm:5.3.0"],
             ["react-scripts", "virtual:7b59d9b360f0da82c68dd7630b4a6bce9e38c678b50fda300ffc1f20946112da7c376517dc35f7cc4110e3af9de213c137f095cd75bb59b9f1560be291d39718#npm:4.0.3"],
             ["typescript", "patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=d8b4e7"],
