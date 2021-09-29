@@ -9331,6 +9331,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"kakao.maps.d.ts@npm:^0.1.23":
+  version: 0.1.23
+  resolution: "kakao.maps.d.ts@npm:0.1.23"
+  checksum: ddc2f19700e085757d3fc6ff46ce0f09cf4f2f9e718afcc580ef3b6d068178e84ad37e316c335b634f415833c9a71b75007c8e58dba9f98b359f887c4e5a70ad
+  languageName: node
+  linkType: hard
+
 "killable@npm:^1.0.1":
   version: 1.0.1
   resolution: "killable@npm:1.0.1"
@@ -12352,6 +12359,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"react-icons@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "react-icons@npm:4.2.0"
+  peerDependencies:
+    react: "*"
+  checksum: 2b42d9b0ac85a57f8de28819b5f452b2c851f4caec09a855596d47557b775a434802fce1f3dc3811eebf46cf4d7c79fa4650330d5772345d6839f86c83afc01d
+  languageName: node
+  linkType: hard
+
 "react-is@npm:^16.6.0, react-is@npm:^16.7.0, react-is@npm:^16.8.1":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
@@ -12363,6 +12379,18 @@ fsevents@^1.2.7:
   version: 17.0.2
   resolution: "react-is@npm:17.0.2"
   checksum: 9d6d111d8990dc98bc5402c1266a808b0459b5d54830bbea24c12d908b536df7883f268a7868cfaedde3dd9d4e0d574db456f84d2e6df9c4526f99bb4b5344d8
+  languageName: node
+  linkType: hard
+
+"react-kakao-maps-sdk@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "react-kakao-maps-sdk@npm:1.0.1"
+  dependencies:
+    kakao.maps.d.ts: ^0.1.23
+  peerDependencies:
+    react: ">=17.0.2 || >=16.9.0"
+    react-dom: ">=17.0.2 || >=16.9.0"
+  checksum: 102cd79bc152df06d45624b796d6cf39012ab57f74da980dde1029c64e4d70eeb127f0b300b0190c1ad079c6deee6a89fe662c1ecc2a67303d31c17e885a77ee
   languageName: node
   linkType: hard
 
@@ -14324,8 +14352,11 @@ resolve@^2.0.0-next.3:
     "@types/react": ^17.0.24
     "@types/react-dom": ^17.0.0
     "@types/react-router-dom": ^5.1.8
+    babel-eslint: ^10.1.0
     react: ^17.0.2
     react-dom: ^17.0.2
+    react-icons: ^4.2.0
+    react-kakao-maps-sdk: ^1.0.1
     react-router-dom: ^5.2.1
     react-scripts: 4.0.3
     typescript: ~4.3
