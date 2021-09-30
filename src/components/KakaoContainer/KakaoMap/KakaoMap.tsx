@@ -1,26 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { Map, MapMarker } from 'react-kakao-maps-sdk'
-import KakaoMarker from './KakaoMarker';
-
-// const positions = [
-//     {
-//       title: "카카오",
-//       latlng: { lat: 33.450705, lng: 126.570677 },
-//     },
-//     {
-//       title: "생태연못",
-//       latlng: { lat: 33.450936, lng: 126.569477 },
-//     },
-//     {
-//       title: "텃밭",
-//       latlng: { lat: 33.450879, lng: 126.56994 },
-//     },
-//     {
-//       title: "근린공원",
-//       latlng: { lat: 33.451393, lng: 126.570738 },
-//     },
-//   ]
+import KakaoMarker from '../KakaoMarker/KakaoMarker';
 
 const markerdata = [
     {
@@ -37,6 +18,16 @@ const markerdata = [
       title: "감동헤어",
       lat: 36.38941522030629,
       lng: 127.34884929417515,
+    },
+    {
+      title: "대덕대학교",
+      lat: 36.390919558287464, 
+      lng: 127.36545386937999,
+    },
+    {
+      title: "금성초 병설",
+      lat: 36.391286658188996, 
+      lng: 127.34983550570026, 
     },
   ];
 
@@ -65,13 +56,8 @@ const KakaoMap = () => {
                             lng={data.lng} 
                             index={index}
                             title={data.title}
-                            onClick={() => setSeleteMarker(index)}
-                            isClick={seleteMarker === index}
                             key={`EventMarkerContainer-${data.lat}-${data.lng}`}
-                        ></KakaoMarker>
-                        {
-                            console.log(data)
-                        }
+                        />
                     </>
                 ))
             }
