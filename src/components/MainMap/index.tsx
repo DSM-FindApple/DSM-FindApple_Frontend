@@ -1,13 +1,16 @@
 import React from 'react';
 import { Map } from 'react-kakao-maps-sdk'
 import KakaoMap from '../KakaoContainer/KakaoMap/KakaoMap';
+import * as S from './styles'
 
-const Location = () => {
+const MainMap = () => {
   return (
     <>
-       <KakaoMap />
+      <S.Warpper >
+        <KakaoMap />
+      </S.Warpper>
     </>
   );
 }
 
-export default Location;
+export default MainMap;
