@@ -1,7 +1,7 @@
 import React, { FC, useState } from 'react';
 import { CustomOverlayMap, MapMarker, useMap } from 'react-kakao-maps-sdk';
-import {marker} from '../../../assets';
-import { InfoCustom } from './Customs';
+import { marker } from '../../../assets';
+import { InfoMarker } from './InfoMarker';
 
 interface Props {
   lat: number,
@@ -12,16 +12,16 @@ interface Props {
 
   const KakaoMarker: FC<Props> = ({lat, lng, index, title}) => {
     const map = useMap()
-    const [ isOpen ,setIsOpen ] = useState<boolean>(false)
+    const [ isShow, setIsShow ] = useState<boolean>(false)
     const [ sizeData, setSizeData ] = useState({width: 49, height: 54})
 
     const onOpenOverView = () => {
-      setIsOpen(true)
+      setIsShow(true)
       setSizeData({width: 0, height: 0})
     }
 
     const onClosrOverView = () => {
-      setIsOpen(false)
+      setIsShow(false)
       setSizeData({width: 49, height: 54})
     }
 
@@ -44,7 +44,7 @@ interface Props {
         onClick={onOpenOverView}
       />
       {
-        isOpen &&
+        isShow &&
         <CustomOverlayMap // 커스텀 오버레이를 표시할 Container
           // 커스텀 오버레이가 표시될 위치입니다
           position={{
@@ -53,7 +53,7 @@ interface Props {
           }}
           yAnchor={1}
         >
-          <InfoCustom onClosrOverView={() => onClosrOverView()}/>
+          <InfoMarker onClosrOverView={() => onClosrOverView()}/>
         </CustomOverlayMap>
       }
       </>
