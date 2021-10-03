@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "CookieRunBold";
+    src: url("./fonts/CookieRunBold.ttf") format('truetype');
+}
+@font-face {
+    font-family: "CookieRunBlack";
+    src: url("./fonts/CookieRunBlack.ttf") format('truetype');
+}
+@font-face {
+    font-family: "CookieRunRegular";
+    src: url("./fonts/CookieRunRegular.ttf") format('truetype');
+}
