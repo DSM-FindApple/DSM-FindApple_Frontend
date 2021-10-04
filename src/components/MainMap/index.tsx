@@ -6,9 +6,9 @@ import * as S from './styles'
 const MainMap = () => {
   return (
     <>
-      <S.Warpper >
+      <S.Wrapper >
         <KakaoMap />
-      </S.Warpper>
+      </S.Wrapper>
     </>
   );
 }
