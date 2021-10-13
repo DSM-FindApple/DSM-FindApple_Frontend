@@ -5,7 +5,14 @@ import * as S from './styles'
 
 const dataD = [
   {
-    name: "안녕하세요"
+    name: "한준호",
+    title: 'ㅁㄴㅇ',
+    read: false,
+  },
+  {
+    name: "김재원",
+    title: '123123ㅂㄴㅇㅈㅁㄷㅁㅇㄴㅇㅁㅈ',
+    read: true,
   },
 ]
 
@@ -15,12 +22,17 @@ const ChatList = () => {
   return (
     <>
         <S.Wrapper>
-            {
-              !data ?
-              <NonData/>
+            {/* {
+              !data ? <NonData/>
               : <ChatListContainer />
+            } */}
+            {
+              data.map((i, index) => {
+                return (
+                  <ChatListContainer {...i} key={index}/>
+                )
+              })
             }
-            <ChatListContainer/>
         </S.Wrapper>
     </>
   );
