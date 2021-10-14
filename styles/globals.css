@@ -1,16 +1,23 @@
-html,
 body {
-  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #FAFAFA;
+  outline: none;
 }
-
-a {
-  color: inherit;
+a{
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+@font-face {
+  font-family: "CookieRunBold";
+  src: url('../src/fonts/CookieRunBold.ttf');
+}
+@font-face {
+  font-family: "CookieRunRegular";
+  src: url('../src/fonts/CookieRunRegular.ttf');
+}
+@font-face {
+  font-family: "CookieRunBlack";
+  src: url('../src/fonts/CookieRunBlack.ttf');
 }

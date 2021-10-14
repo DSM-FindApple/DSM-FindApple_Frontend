@@ -1,0 +1,17 @@
+export const color = {
+    blue100: '#DBEFFF',
+    blue200: '#B6DFFF',
+    blue300: '#93CFFF',
+    blue400: '#81C1F3',
+    blue500: '#6CABDD',
+    yellow100: '#FFFBEE',
+    yellow200: '#FFEDAD',
+    yellow300: '#FFE898',
+    yellow400: '#FFE177',
+    yellow500: '#FFDB5C',
+    gray100: '#F1F1F1',
+    gray200: '#B5B5B5',
+    gray300: '#787878',
+    gray400: '#4E4E4E',
+    gray500: '#2B2B2B',
+}
